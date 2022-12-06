@@ -25,10 +25,14 @@ var sidebarEnhancer = {
   <ul>
     <li><a href="${cpUrl}/settings/fields"><span class="icon icon-mask"><span data-icon="field"></span></span><span class="label">Fields</span></a></li>
     <li><a href="${cpUrl}/settings/sections"><span class="icon icon-mask"><span data-icon="section"></span></span><span class="label">Sections</span></a></li>
-    <li><a href="${cpUrl}/settings/assets"><span class="icon icon-mask"><span data-icon="assets"></span></span><span class="label">Assets</span></a></li>
     <li><a href="${cpUrl}/settings/globals"><span class="icon icon-mask"><span data-icon="globe"></span></span><span class="label">Globals</span></a></li>
-    <li><a href="${cpUrl}/settings/categories"><span class="icon icon-mask"><span data-icon="categories"></span></span><span class="label">Categories</span></a></li>
+    <li><a href="${cpUrl}/settings/categories"><span class="icon icon-mask"><span data-icon="tree"></span></span><span class="label">Categories</span></a></li>
     <li><a href="${cpUrl}/settings/tags"><span class="icon icon-mask"><span data-icon="tags"></span></span><span class="label">Tags</span></a></li>
+  </ul>
+  <div class="navheading">Media</div>
+  <ul>
+    <li><a href="${cpUrl}/settings/filesystems"><span class="icon icon-mask"><span data-icon="folder"></span></span><span class="label">Filesystems</span></a></li>
+    <li><a href="${cpUrl}/settings/assets"><span class="icon icon-mask"><span data-icon="assets"></span></span><span class="label">Assets</span></a></li>
   </ul>
 </div>`;
 
